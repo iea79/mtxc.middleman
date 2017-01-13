@@ -1,0 +1,45 @@
+<div id="mobile-menu" class="uk-offcanvas">
+    <div class="uk-offcanvas-bar uk-offcanvas-bar-flip">
+        <a href="<%= I18n.t("home_link") %>" class="uk-navbar-brand">
+            <%= image_tag "logo-top.png" %>
+        </a>
+        <hr>   
+        <ul class="uk-nav">
+            <li class="uk-navbar-nav-item">
+                <%= link_to I18n.t("header.top_menu.how_work.name"), I18n.t("header.top_menu.how_work.link") %>
+            </li>
+            <li class="uk-navbar-nav-item">
+                <%= link_to I18n.t("header.top_menu.pricing.name"), I18n.t("header.top_menu.pricing.link") %>
+            </li>
+            <li class="uk-navbar-nav-item">
+                <%= link_to I18n.t("header.top_menu.coverage.name"), I18n.t("header.top_menu.coverage.link") %>
+            </li>
+            <li class="uk-navbar-nav-item">
+                <%= link_to I18n.t("header.top_menu.faq.name"), I18n.t("header.top_menu.faq.link") %>
+            </li>
+            <li class="uk-navbar-nav-item">
+                <%= link_to I18n.t("header.top_menu.contact.name"), I18n.t("header.top_menu.contact.link") %>
+            </li>
+        </ul>
+        <hr>   
+        <ul class="uk-nav">
+            <li>
+                <%= link_to I18n.t("header.right_box.login.name"), I18n.t("header.right_box.login.link") %>
+            </li>
+            <li>
+                <%= link_to I18n.t("header.right_box.activate.name"), I18n.t("header.right_box.activate.link") %>
+            </li>
+        </ul> 
+        <hr>
+        <ul class="uk-nav uk-nav-parent-icon" data-uk-nav="">
+            <li class="uk-parent">
+                <a href="#"><%= I18n.t("off_canvas_language") %></a>
+                <ul class="uk-nav-sub">
+                    <li><a href="../">English</a></li>
+                    <li><a href="/ru/">Русский</a></li>
+                    <li><a href="/cn/">中文</a></li>
+                </ul>
+            </li>
+        </ul>             
+    </div>
+</div>

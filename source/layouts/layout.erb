@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+    <head>
+        <meta content="IE=edge" http-equiv="X-UA-Compatible">
+        <meta charset="utf-8">
+        <meta content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" name="viewport">
+
+        <!-- Use title if it's in the page YAML frontmatter -->
+        <title><%= current_page.data.title || "MTX Connect | mobile broadband for travelers in Europe" %></title>
+
+        <%= stylesheet_link_tag :site %>
+        <%= javascript_include_tag :all %>
+        <%= javascript_include_tag :jquery %>
+        <%= javascript_include_tag :uikit %>
+    </head>
+
+    <body class="<%= page_classes %>">
+        <div class="wrapper">
+            
+            <%= partial "header" %>
+
+            <!-- begin main__content -->
+            <main class="main__content">
+
+                <%= yield %>
+
+            </main>
+
+        </div>
+
+        <%= partial "footer" %>
+
+        <%= partial "off-canvas" %>
+
+    </body>
+</html>

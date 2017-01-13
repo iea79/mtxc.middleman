@@ -1,0 +1,57 @@
+---
+ru:
+
+    home_link: "/"
+    
+    header:
+        top_menu:
+            how_work: 
+                name: "Как пользоваться"
+                link: "how-it-works.html"
+            pricing:
+                name: "Тарифы"
+                link: "pricing.html"
+            coverage:
+                name: "Карта покрытия"
+                link: "coverage.html"
+            faq:
+                name: "Поддержка"
+                link: "FAQs.html"
+            contact:
+                name: "Контакты"
+                link: "contact-us.html"
+
+        right_box:
+            login:
+                name: "Войти"
+                link: "https://a.mtxc.eu/"
+            activate:
+                name: "Активировать SIM"
+                link: "https://a.mtxc.eu/signup/"
+            get_sim:
+                name: "Заказать SIM-карту"
+                link: ""
+
+    choose_language: "Рус"
+
+    off_canvas_language: "Выбор языка"
+
+    footer:
+        menu:
+            service_guide:
+                name: "Инструкция по активации"
+                link: "#service_guide"
+            terms:
+                name: "Условия предоставления сервиса"
+                link: "terms-and-conditions.html"
+            description_service:
+                name: "Описание сервиса"
+                link: "description-of-services.html"
+            privacy:
+                name: "Политика конфиденциальности"
+                link: "privacy-policy.html"
+            company_info:
+                name: "Информация о компании"
+                link: "http://corp.mtxc.eu"
+        copyright: "Все права защищены © - "
+

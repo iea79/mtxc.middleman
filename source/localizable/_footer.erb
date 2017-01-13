@@ -1,0 +1,36 @@
+<footer class="footer">
+	<div class="uk-container uk-container-center">
+        <ul class="footer_subnav">
+            <li>
+            	<%= link_to I18n.t("footer.menu.service_guide.name"), I18n.t("footer.menu.service_guide.link") %>
+            </li>
+            <li>
+            	<%= link_to I18n.t("footer.menu.terms.name"), I18n.t("footer.menu.terms.link") %>
+            </li>
+            <li>
+            	<%= link_to I18n.t("footer.menu.description_service.name"), I18n.t("footer.menu.description_service.link") %>
+            </li>
+            <li>
+            	<%= link_to I18n.t("footer.menu.privacy.name"), I18n.t("footer.menu.privacy.link") %>
+            </li>
+            <li>
+            	<%= link_to I18n.t("footer.menu.company_info.name"), I18n.t("footer.menu.company_info.link") %>
+            </li>
+        </ul>
+        <div class="footer_copyrite">
+        	<%= I18n.t("footer.copyright") %> 
+        	<script type="text/javascript">
+        		document.write(new Date().getFullYear());
+        	</script> 
+             MTX Connect
+        </div>
+        <a class="footer_logo" href="<%= I18n.t("home_link") %>">
+        	<%= image_tag "logo.png" %>
+        </a>
+        <div class="footer_soc">
+            <a href="http://facebook.com/mtxconnect/" class="uk-icon-facebook-square"></a>
+            <a href="http://twitter.com/mtxconnect/" class="uk-icon-twitter-square"></a>
+            <a href="https://instagram.com/mtxconnect/" class="uk-icon-instagram"></a>
+        </div>
+    </div>
+</footer>

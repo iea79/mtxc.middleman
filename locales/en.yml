@@ -1,0 +1,57 @@
+---
+en:
+
+    home_link: "/"
+    
+    header:
+        top_menu:
+            how_work: 
+                name: "How it works"
+                link: "how-it-works.html"
+            pricing:
+                name: "Pricing"
+                link: "pricing.html"
+            coverage:
+                name: "Coverage"
+                link: "coverage.html"
+            faq:
+                name: "FAQ"
+                link: "FAQs.html"
+            contact:
+                name: "Contact Us"
+                link: "contact-us.html"
+
+        right_box:
+            login:
+                name: "Login"
+                link: "https://a.mtxc.eu/"
+            activate:
+                name: "Activate SIM Card"
+                link: "https://a.mtxc.eu/signup/"
+            get_sim:
+                name: "Get a SIM card"
+                link: ""
+
+    choose_language: "En"
+
+    off_canvas_language: "Language"
+
+    footer:
+        menu:
+            service_guide:
+                name: "Service guide"
+                link: "#service_guide"
+            terms:
+                name: "Terms & Conditions"
+                link: "terms-and-conditions.html"
+            description_service:
+                name: "Description of Services"
+                link: "description-of-services.html"
+            privacy:
+                name: "Privacy Policy"
+                link: "privacy-policy.html"
+            company_info:
+                name: "Company information"
+                link: "http://corp.mtxc.eu"
+        copyright: "Copyright © - "
+

@@ -1,0 +1,57 @@
+---
+cn:
+
+    home_link: "/"
+    
+    header:
+        top_menu:
+            how_work: 
+                name: "如何操作"
+                link: "how-it-works.html"
+            pricing:
+                name: "定价"
+                link: "pricing.html"
+            coverage:
+                name: "覆盖区域"
+                link: "coverage.html"
+            faq:
+                name: "常见问题"
+                link: "FAQs.html"
+            contact:
+                name: "联系我们"
+                link: "contact-us.html"
+
+        right_box:
+            login:
+                name: "登陆"
+                link: "https://a.mtxc.eu/"
+            activate:
+                name: "激活SIM卡"
+                link: "https://a.mtxc.eu/signup/"
+            get_sim:
+                name: "获取免费的SIM卡"
+                link: ""
+
+    choose_language: "英文"
+
+    off_canvas_language: "英文"
+
+    footer:
+        menu:
+            service_guide:
+                name: "服务指南"
+                link: "#service_guide"
+            terms:
+                name: "条款及细则"
+                link: "terms-and-conditions.html"
+            description_service:
+                name: "服务说明"
+                link: "description-of-services.html"
+            privacy:
+                name: "隐私政策"
+                link: "privacy-policy.html"
+            company_info:
+                name: "公司信息"
+                link: "http://corp.mtxc.eu"
+        copyright: "版权的 © - "
+

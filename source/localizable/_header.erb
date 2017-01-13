@@ -1,0 +1,54 @@
+<header class="header">
+	<nav class="uk-navbar">
+		<div class="uk-container uk-container-center">	
+		    <a href="<%= I18n.t("home_link") %>" class="uk-navbar-brand">
+		    	<%= image_tag "logo-top.png" %>
+		    </a>
+		    <div class="uk-navbar-content uk-navbar-flip uk-visible-small">
+				<a href="#mobile-menu" class="uk-navbar-toggle"  data-uk-offcanvas="{mode:'slide'}"></a>
+		    </div>
+		    <div class="uk-navbar-content uk-navbar-flip uk-hidden-small header-right-box">
+		    	<div class="uk-button-dropdown" data-uk-dropdown="{mode:'click'}">
+		    		<button class="uk-button">
+		    			<%= I18n.t("choose_language") %> <i class="uk-icon-caret-down"></i>
+		    		</button>
+		    		<div class="uk-dropdown uk-dropdown-bottom">
+					    <ul class="uk-nav uk-nav-dropdown">
+					    	<li>
+					    		<%= link_to 'En', '../' %>
+					    	</li>
+					    	<li>
+					    		<%= link_to 'Rus', '/ru/' %>
+					    	</li>
+					    	<li>
+					    		<%= link_to '中文', '/cn/' %>
+					    	</li>
+					    </ul>
+					</div>
+				</div>
+				<%= link_to I18n.t("header.right_box.login.name"), I18n.t("header.right_box.login.link") %>
+				<%= link_to I18n.t("header.right_box.activate.name"), I18n.t("header.right_box.activate.link") %>
+				<a href="#" class="uk-button uk-button-primary"><%= I18n.t("header.right_box.get_sim.name") %></a>
+		    </div>
+		    <div class="uk-navbar-content uk-navbar-center uk-hidden-small">
+			    <ul class="uk-navbar-nav">
+			    	<li class="uk-navbar-nav-item">
+			    		<%= link_to I18n.t("header.top_menu.how_work.name"), I18n.t("header.top_menu.how_work.link") %>
+			    	</li>
+			    	<li class="uk-navbar-nav-item">
+			    		<%= link_to I18n.t("header.top_menu.pricing.name"), I18n.t("header.top_menu.pricing.link") %>
+			    	</li>
+			    	<li class="uk-navbar-nav-item">
+			    		<%= link_to I18n.t("header.top_menu.coverage.name"), I18n.t("header.top_menu.coverage.link") %>
+			    	</li>
+			    	<li class="uk-navbar-nav-item">
+			    		<%= link_to I18n.t("header.top_menu.faq.name"), I18n.t("header.top_menu.faq.link") %>
+			    	</li>
+			    	<li class="uk-navbar-nav-item">
+			    		<%= link_to I18n.t("header.top_menu.contact.name"), I18n.t("header.top_menu.contact.link") %>
+			    	</li>
+			    </ul>
+		    </div>
+		</div>
+	</nav>
+</header>
